@@ -1,0 +1,145 @@
+[
+    {
+        "type": "Pelicula",
+        "ID": "1",
+        "nombre": "El Padrino",
+        "duracion": 175.0,
+        "genero": "Drama",
+        "calificacion": 4.6
+    },
+    {
+        "type": "Pelicula",
+        "ID": "2",
+        "nombre": "El Caballero de la Noche",
+        "duracion": 152.0,
+        "genero": "Acción",
+        "calificacion": 4.5
+    },
+    {
+        "type": "Pelicula",
+        "ID": "3",
+        "nombre": "Pulp Fiction",
+        "duracion": 154.0,
+        "genero": "Crimen",
+        "calificacion": 3.4
+    },
+    {
+        "type": "Pelicula",
+        "ID": "4",
+        "nombre": "El Señor de los Anillos: La Comunidad del Anillo",
+        "duracion": 178.0,
+        "genero": "Fantasía",
+        "calificacion": 4.4
+    },
+    {
+        "type": "Pelicula",
+        "ID": "5",
+        "nombre": "Forrest Gump",
+        "duracion": 142.0,
+        "genero": "Drama",
+        "calificacion": 4.8
+    },
+    {
+        "type": "Serie",
+        "ID": "6",
+        "nombre": "Las cosas por limpiar",
+        "genero": "Drama",
+        "calificacion": 4.7,
+        "episodios": [
+            {"titulo": "Todo por un dolar", "temporada": 1, "calificacion": 4.0, "numero": 1, "duracion": 25.0},
+            {"titulo": "Ponis", "temporada": 1, "calificacion": 4.0, "numero": 2, "duracion": 30.0},
+            {"titulo": "Vidrio marino", "temporada": 1, "calificacion": 3.8, "numero": 3, "duracion": 27.0},
+            {"titulo": "Cachemir", "temporada": 1, "calificacion": 3.9, "numero": 4, "duracion": 28.0},
+            {"titulo": "Ladrón", "temporada": 1, "calificacion": 4.0, "numero": 5, "duracion": 29.0},
+            {"titulo": "M", "temporada": 1, "calificacion": 3.9, "numero": 6, "duracion": 26.0},
+            {"titulo": "El caballo", "temporada": 1, "calificacion": 3.6, "numero": 7, "duracion": 31.0},
+            {"titulo": "Sin nada que perder", "temporada": 1, "calificacion": 4.0, "numero": 8, "duracion": 28.0},
+            {"titulo": "El color del cielo", "temporada": 1, "calificacion": 4.2, "numero": 9, "duracion": 32.0},
+            {"titulo": "Chasquidos", "temporada": 1, "calificacion": 4.5, "numero": 10, "duracion": 35.0},
+            {"titulo": "Barro", "temporada": 2, "calificacion": 4.3, "numero": 1, "duracion": 26.0},
+            {"titulo": "Espuma", "temporada": 2, "calificacion": 4.1, "numero": 2, "duracion": 28.0},
+            {"titulo": "Escarabajo", "temporada": 2, "calificacion": 4.4, "numero": 3, "duracion": 29.0},
+            {"titulo": "Madera", "temporada": 2, "calificacion": 4.5, "numero": 4, "duracion": 27.0},
+            {"titulo": "Sol", "temporada": 2, "calificacion": 4.2, "numero": 5, "duracion": 30.0},
+            {"titulo": "Estrella", "temporada": 2, "calificacion": 4.3, "numero": 6, "duracion": 31.0},
+            {"titulo": "Nube", "temporada": 2, "calificacion": 4.0, "numero": 7, "duracion": 27.0},
+            {"titulo": "Viento", "temporada": 2, "calificacion": 4.1, "numero": 8, "duracion": 32.0},
+            {"titulo": "Rayo", "temporada": 2, "calificacion": 4.6, "numero": 9, "duracion": 33.0},
+            {"titulo": "Arcoiris", "temporada": 2, "calificacion": 4.4, "numero": 10, "duracion": 34.0}
+        ]
+    },
+    {
+        "type": "Serie",
+        "ID": "7",
+        "nombre": "Secretos de un matrimonio",
+        "genero": "Drama",
+        "calificacion": 4.6,
+        "episodios": [
+            {"titulo": "Innocence and Panic", "temporada": 1, "calificacion": 3.9, "numero": 1, "duracion": 26.0},
+            {"titulo": "Poli", "temporada": 1, "calificacion": 4.4, "numero": 2, "duracion": 27.0},
+            {"titulo": "The Vale of Tears", "temporada": 1, "calificacion": 4.1, "numero": 3, "duracion": 25.0},
+            {"titulo": "The Illiterates", "temporada": 1, "calificacion": 4.5, "numero": 4, "duracion": 28.0},
+            {"titulo": "In the Middle of the Night, in a Dark House, Somewhere in the World", "temporada": 1, "calificacion": 3.8, "numero": 5, "duracion": 24.0},
+            {"titulo": "Whispers", "temporada": 2, "calificacion": 4.2, "numero": 1, "duracion": 29.0},
+            {"titulo": "Echoes", "temporada": 2, "calificacion": 4.3, "numero": 2, "duracion": 30.0},
+            {"titulo": "Shadows", "temporada": 2, "calificacion": 4.5, "numero": 3, "duracion": 31.0},
+            {"titulo": "Reflections", "temporada": 2, "calificacion": 4.4, "numero": 4, "duracion": 28.0},
+            {"titulo": "Confessions", "temporada": 2, "calificacion": 4.6, "numero": 5, "duracion": 32.0},
+            {"titulo": "Fragments", "temporada": 2, "calificacion": 4.7, "numero": 6, "duracion": 33.0},
+            {"titulo": "Silence", "temporada": 2, "calificacion": 4.5, "numero": 7, "duracion": 30.0},
+            {"titulo": "Tears", "temporada": 2, "calificacion": 4.3, "numero": 8, "duracion": 27.0},
+            {"titulo": "Promises", "temporada": 2, "calificacion": 4.6, "numero": 9, "duracion": 34.0},
+            {"titulo": "Goodbye", "temporada": 2, "calificacion": 4.8, "numero": 10, "duracion": 35.0}
+        ]
+    },
+    {
+        "type": "Pelicula",
+        "ID": "8",
+        "nombre": "El Gran Lebowski",
+        "duracion": 117.0,
+        "genero": "Comedia",
+        "calificacion": 4.1
+    },
+    {
+        "type": "Pelicula",
+        "ID": "9",
+        "nombre": "La La Land",
+        "duracion": 128.0,
+        "genero": "Musical",
+        "calificacion": 4.7
+    },
+    {
+        "type": "Pelicula",
+        "ID": "10",
+        "nombre": "Matrix",
+        "duracion": 136.0,
+        "genero": "Ciencia Ficción",
+        "calificacion": 4.5
+    },
+    {
+        "type": "Serie",
+        "ID": "11",
+        "nombre": "Breaking Bad",
+        "genero": "Drama",
+        "calificacion": 4.8,
+        "episodios": [
+            {"titulo": "Pilot", "temporada": 1, "calificacion": 4.3, "numero": 1, "duracion": 47.0},
+            {"titulo": "Cat's in the Bag...", "temporada": 1, "calificacion": 4.5, "numero": 2, "duracion": 48.0},
+            {"titulo": "...And the Bag's in the River", "temporada": 1, "calificacion": 4.7, "numero": 3, "duracion": 49.0},
+            {"titulo": "Cancer Man", "temporada": 1, "calificacion": 4.6, "numero": 4, "duracion": 50.0},
+            {"titulo": "Gray Matter", "temporada": 1, "calificacion": 4.4, "numero": 5, "duracion": 51.0},
+            {"titulo": "Crazy Handful of Nothin'", "temporada": 1, "calificacion": 4.8, "numero": 6, "duracion": 52.0},
+            {"titulo": "A No-Rough-Stuff-Type Deal", "temporada": 1, "calificacion": 4.9, "numero": 7, "duracion": 53.0},
+            {"titulo": "Seven Thirty-Seven", "temporada": 2, "calificacion": 4.7, "numero": 1, "duracion": 54.0},
+            {"titulo": "Grilled", "temporada": 2, "calificacion": 4.8, "numero": 2, "duracion": 55.0},
+            {"titulo": "Bit by a Dead Bee", "temporada": 2, "calificacion": 4.6, "numero": 3, "duracion": 56.0},
+            {"titulo": "Down", "temporada": 2, "calificacion": 4.7, "numero": 4, "duracion": 57.0},
+            {"titulo": "Breakage", "temporada": 2, "calificacion": 4.7, "numero": 5, "duracion": 58.0},
+            {"titulo": "Peekaboo", "temporada": 2, "calificacion": 4.6, "numero": 6, "duracion": 59.0},
+            {"titulo": "Negro y Azul", "temporada": 2, "calificacion": 4.5, "numero": 7, "duracion": 60.0},
+            {"titulo": "Better Call Saul", "temporada": 2, "calificacion": 4.7, "numero": 8, "duracion": 61.0},
+            {"titulo": "4 Days Out", "temporada": 2, "calificacion": 4.8, "numero": 9, "duracion": 62.0},
+            {"titulo": "Over", "temporada": 2, "calificacion": 4.6, "numero": 10, "duracion": 63.0}
+        ]
+    }
+]
